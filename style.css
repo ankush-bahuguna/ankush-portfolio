@@ -143,3 +143,19 @@ h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
     overflow-x: hidden; /* prevent horizontal scroll */
   }
 }
+
+/* Reorder sections for mobile */
+@media (max-width: 768px) {
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    order: 2;  /* push intro below */
+  }
+
+  .contact {
+    order: 1;  /* bring contact above */
+  }
+}
