@@ -135,25 +135,3 @@ h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
     order: 2; /* Intro second */
   }
 }
-
-/* Mobile specific layout fixes */
-@media (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Move intro below contact */
-  .intro {
-    order: 2;
-  }
-
-  .contact {
-    order: 1;
-  }
-
-  /* Move buttons below contact as well */
-  .buttons {
-    order: 3;
-  }
-}
