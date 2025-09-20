@@ -119,31 +119,6 @@ h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
 
 }
 
-/* ----------------------- */
-/* Mobile Responsiveness   */
-/* ----------------------- */
-@media (max-width: 768px) {
-  .intro {
-    font-size: 16px;   /* reduce text size for smaller screens */
-    line-height: 1.5;
-    padding: 10px 15px; 
-    text-align: center; 
-    word-wrap: break-word;
-  }
-
-  .intro h1 {
-    font-size: 20px;
-  }
-
-  .intro p {
-    font-size: 14px;
-  }
-
-  body, html {
-    overflow-x: hidden; /* prevent horizontal scroll */
-  }
-}
-
 /* Reorder sections for mobile */
 @media (max-width: 768px) {
   .main-sections {
