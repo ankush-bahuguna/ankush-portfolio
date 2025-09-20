@@ -121,16 +121,17 @@ h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
 
 /* Mobile layout fixes */
 @media (max-width: 768px) {
-  .main-sections {
+  .contact-grid {
     display: flex;
-    flex-direction: column;  /* stack vertically */
+    flex-direction: column; /* stack vertically */
+    gap: 16px;
   }
 
   .contact {
-    order: 1;  /* show first */
+    order: 1; /* Contact first */
   }
 
   .intro {
-    order: 2;  /* move below contact */
+    order: 2; /* Intro second */
   }
 }
