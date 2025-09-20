@@ -119,18 +119,18 @@ h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
 
 }
 
-/* Reorder sections for mobile */
+/* Mobile layout fixes */
 @media (max-width: 768px) {
   .main-sections {
     display: flex;
-    flex-direction: column;
-  }
-
-  .intro {
-    order: 2;  /* push intro below */
+    flex-direction: column;  /* stack vertically */
   }
 
   .contact {
-    order: 1;  /* bring contact above */
+    order: 1;  /* show first */
+  }
+
+  .intro {
+    order: 2;  /* move below contact */
   }
 }
